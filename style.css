@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:black;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: ink free;
+}
+.container{
+	position: relative;
+	margin-top: 50px;
+	width: 30%;
+	height: 10%;
+	background: pink;
+	border-radius: 5px;
+	color:black;
+		font-weight: bold;
+
+	
+}
+.label{
+	padding: 20px 60px;
+	font-size: 100%;
+	font-weight: bold;
+	color: black;
+}
+.login_form{
+	padding: 15px 15px;
+}
+.login_form .font{
+	font-size: 90%;
+	color: black;
+	margin: 3px 0;
+
+}
+.login_form input{
+	height: 20px;
+	width: 60%;
+	padding: 0 5px;
+	font-size: 70%;
+	outline: none;
+	border: 1px solid silver;
+}
+.login_form .font2{
+	margin-top: 6%;
+}
+.login_form button{
+	margin: 30px 0 30px 0;
+	height: 30px;
+	width: 40%;
+	font-size: 10px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: black;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.login_form button:hover{
+	background: #151c6a;
+	color:yellow;
+	display:flex;
+} 
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 40%;
+	font-size: 10px;
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+
